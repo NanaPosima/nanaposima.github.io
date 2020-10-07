@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пример разметки для формы с отправкой в Telegram</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-32x32.png">
+    <link rel="stylesheet" href="css/sweetalert.min.css">
+    <link rel="stylesheet" href="css/form.css">
+</head>
+<body>
+
+<div class="main_form">
+    <form action="post" class="feedback-form">
+        <div class="feedback-form__title">Записаться на курс</div>
+        <input type="text" class="feedback-form__input feedback-form__name" placeholder="Ваше имя" name="name">
+        <input id="phone" type="tel" class="feedback-form__input feedback-form__tel" placeholder="Ваш телефон" name="phone">
+        <button class="btn feedback-form__button "><span>Подать заявку</span></button>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/sweetalert.min.js"></script>
+<script src="js/form.js"></script>
+</body>
+
+</html>
